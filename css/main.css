@@ -10,8 +10,8 @@
 --"Home" nav link background: #00A5BF
 --"Calendar" nav link background: #00B7D3
 --"Join" nav link background: #00D5E7
-"Up Next" background: #0B1942
-"Up Next" card background #E2E2E2
+--"Up Next" background: #0B1942
+--"Up Next" card background #E2E2E2
 calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
 button background: #F5005B
@@ -39,6 +39,10 @@ body{
 
 a {
   color: #00B7D3;
+}
+
+b {
+  font-weight: bold;
 }
 
 header {
@@ -123,6 +127,75 @@ p {
   font-size: 13px;
   line-height: 1.5rem;
   margin-bottom: 15px;
+}
+
+.up-next {
+  background-color: #0B1942;
+  padding: 15px;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 300;
+  padding-left: 18px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.flex-container-up-next {
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-rashomon {
+  background-color: #E2E2E2;
+  padding: 15px;
+}
+
+#rashomon {
+  width: 140px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
+
+#flex-rashomon a {
+  font-size: 20px;
+}
+
+#flex-rashomon p {
+  line-height: 0.5rem;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.25px solid #000;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.points-list {
+  display: inline-block;
+  width: 120px;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 13px;
+  line-height: 1.45rem;
+  list-style: circle;
 }
 
 footer {
