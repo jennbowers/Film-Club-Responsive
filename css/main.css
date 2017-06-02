@@ -131,7 +131,10 @@ p {
 
 .up-next {
   background-color: #0B1942;
-  padding: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 32px;
 }
 
 h1 {
@@ -205,11 +208,12 @@ li {
   background-color: #E2E2E2;
   margin-top: 15px;
   padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 6%;
+  padding-right: 5%;
   padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-container-other-posters a {
