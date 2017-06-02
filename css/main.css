@@ -1,15 +1,15 @@
 /*resources
 
-text: #0B1942
-inline link: #00B7D3
+--text: #0B1942
+--inline link: #00B7D3
 h2 background: #0B1942
 h2 color: #FFFFFF
-logo background: #F5005B
-navigation background: #7DDFE8
-navigation link color: #FFFFFF
-"Home" nav link background: #00A5BF
-"Calendar" nav link background: #00B7D3
-"Join" nav link background: #00D5E7
+--logo background: #F5005B
+--navigation background: #7DDFE8
+--navigation link color: #FFFFFF
+--"Home" nav link background: #00A5BF
+--"Calendar" nav link background: #00B7D3
+--"Join" nav link background: #00D5E7
 "Up Next" background: #0B1942
 "Up Next" card background #E2E2E2
 calendar background and treatments: #0B1942
@@ -27,8 +27,91 @@ copyright text: #FFFFFF
 "Metropolis": https://www.youtube.com/watch?v=Q0NzALRJifI*/
 
 /*HOME BEGINS HERE*/
-
 /*HOME MOBILE --min 320px*/
+
+body{
+  font-family: 'PT Sans';
+  color: #0B1942;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00B7D3;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%
+}
+
+.logo {
+  display: inline-block;
+  background-color: #F5005B;
+  width: 102px;
+  height: 115px;
+  margin: 0;
+}
+
+#logo-image {
+  width: 83px;
+  height: 95px;
+  margin: 7px 12px 14px 8px;
+}
+
+.flex-container-nav{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 75%;
+  background-color: #7DDFE8;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  flex: 1 1 33%;
+  padding-top: 13px;
+  padding-bottom: 11px;
+}
+
+.nav-home {
+  background-color: #00A5BF;
+}
+
+.nav-calendar {
+  background-color: #00B7D3;
+}
+
+.nav-join {
+  background-color: #00D5E7;
+}
+
+footer {
+  background-color: #7DDFE8;
+}
+
+.flex-container-footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #7DDFE8;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 /*HOME TABLET --min 545px*/
 
