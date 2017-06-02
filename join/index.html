@@ -20,32 +20,34 @@
     </nav>
     <section>
       <h2 id="join-club-h2"></h2>
+      <!-- begin flexbox container on form -->
       <form class="flex-container flex-container-form" action="index.html" method="get">
+        <!-- flex item choose file and picture placeholder img -->
         <div id="flex-picture">
-          <div class="flex-group">
+          <div class="form-group">
             <label for="profile-picture">profile picture</label>
-            <input type="file" id="profile-picture" name="profile-picture" class="flex-control" value="profile-picture">
+            <input type="file" id="profile-picture" name="profile-picture" class="form-control" value="profile-picture">
           </div>
           <div id="profile-placeholder">
             <img src="../images/profile-placeholder.png" alt="Profile picture placeholder image">
           </div>
         </div>
         <div id="flex-personal-info">
-          <div class="flex-group">
+          <div class="form-group">
             <label for="name">name</label>
-            <input type="text" id="name" class="flex-control" name="name" value="">
+            <input type="text" id="name" class="form-control" name="name" value="">
           </div>
-          <div class="flex-group">
+          <div class="form-group">
             <label for="email">email address</label>
-            <input type="email" id="email" class="flex-control" name="email" value="">
+            <input type="email" id="email" class="form-control" name="email" value="">
           </div>
-          <div class="flex-group">
+          <div class="form-group">
             <label for="password">password</label>
-            <input type="password" id="password" class="flex-control" name="password" value="">
+            <input type="password" id="password" class="form-control" name="password" value="">
           </div>
-          <div class="flex-group">
+          <div class="form-group">
             <label for="confirm-password">confirm password</label>
-            <input type="password" id="confirm-password" class="flex-control" name="confirm-password" value="">
+            <input type="password" id="confirm-password" class="form-control" name="confirm-password" value="">
           </div>
         </div>
         <div id="flex-genres">
@@ -113,9 +115,9 @@
             </label>
           </div>
         </div>
-        <div id="flex-add-input">
+        <div class="form-group" id="flex-add-input">
           <label for="add-input">Additional input</label>
-          <input type="textarea" name="" id="add-input" class="flex-control" value="">
+          <input type="textarea" name="" id="add-input" class="form-control" value="">
         </div>
         <button type="submit" name="join-film-club" class="btn btn-default">Join Film Club</button>
       </form>
