@@ -2,8 +2,8 @@
 
 --text: #0B1942
 --inline link: #00B7D3
-h2 background: #0B1942
-h2 color: #FFFFFF
+--h2 background: #0B1942
+--h2 color: #FFFFFF
 --logo background: #F5005B
 --navigation background: #7DDFE8
 --navigation link color: #FFFFFF
@@ -62,11 +62,12 @@ header {
 }
 
 .flex-container-nav{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1 1 75%;
   background-color: #7DDFE8;
+  margin-bottom: 0;
 }
 
 nav a {
@@ -89,6 +90,39 @@ nav a {
 
 .nav-join {
   background-color: #00D5E7;
+}
+
+.get-involved {
+  margin: 0;
+  padding: 34px 22px 39px 22px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.flex-container-get-involved {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-background {
+  background-color: #0B1942;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 17px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
 }
 
 footer {
