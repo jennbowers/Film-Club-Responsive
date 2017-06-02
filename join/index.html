@@ -3,13 +3,130 @@
   <head>
     <meta charset="utf-8">
     <title>Film Club - Join</title>
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <style>
       @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
     </style>
   </head>
   <body>
-
+    <div class="logo">
+      <img src="../images/filmclub.png" alt="logo" id="logo-image">
+    </div>
+    <nav class="flex-container flex-container-nav">
+      <a href="../index.html">Home</a>
+      <a href="../calendar/index.html">Calendar</a>
+      <a href="index.html">Join</a>
+    </nav>
+    <section>
+      <h2 id="join-club-h2"></h2>
+      <form class="flex-container flex-container-form" action="index.html" method="get">
+        <div id="flex-picture">
+          <div class="flex-group">
+            <label for="profile-picture">profile picture</label>
+            <input type="file" id="profile-picture" name="profile-picture" class="flex-control" value="profile-picture">
+          </div>
+          <div id="profile-placeholder">
+            <img src="../images/profile-placeholder.png" alt="Profile picture placeholder image">
+          </div>
+        </div>
+        <div id="flex-personal-info">
+          <div class="flex-group">
+            <label for="name">name</label>
+            <input type="text" id="name" class="flex-control" name="name" value="">
+          </div>
+          <div class="flex-group">
+            <label for="email">email address</label>
+            <input type="email" id="email" class="flex-control" name="email" value="">
+          </div>
+          <div class="flex-group">
+            <label for="password">password</label>
+            <input type="password" id="password" class="flex-control" name="password" value="">
+          </div>
+          <div class="flex-group">
+            <label for="confirm-password">confirm password</label>
+            <input type="password" id="confirm-password" class="flex-control" name="confirm-password" value="">
+          </div>
+        </div>
+        <div id="flex-genres">
+          <p>Which genres are you interested in?</p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              action
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              adventure
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              comedy
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              drama
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              fantasy
+            </label>
+          </div><div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              historical
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              horror
+            </label>
+          </div><div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              mystery
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              romance
+            </label>
+          </div><div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              science fiction
+            </label>
+          </div><div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              western
+            </label>
+          </div>
+        </div>
+        <div id="flex-add-input">
+          <label for="add-input">Additional input</label>
+          <input type="textarea" name="" id="add-input" class="flex-control" value="">
+        </div>
+        <button type="submit" name="join-film-club" class="btn btn-default">Join Film Club</button>
+      </form>
+    </section>
+    <footer>
+      <nav class="flex-container flex-container-nav">
+        <a href="../index.html">Home</a>
+        <a href="../calendar/index.html">Calendar</a>
+        <a href="index.html">Join</a>
+      </nav>
+      <p id="copyright">© 2017, Film Club</p>
+    </footer>
   </body>
 </html>
