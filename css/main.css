@@ -149,7 +149,10 @@ h1 {
 
 #flex-rashomon {
   background-color: #E2E2E2;
-  padding: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
 }
 
 #rashomon {
