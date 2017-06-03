@@ -567,6 +567,10 @@ li {
   height: auto;
 }
 
+.flex-container-footer-nav a {
+  flex: 0 1 14%;
+}
+
 footer p {
   font-size: 19px;
 }
