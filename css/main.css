@@ -226,6 +226,7 @@ li {
 
 #flex-train-robbery {
   flex: 1 1 50%;
+  margin-bottom: 20px;
 }
 
 #train-robbery {
@@ -235,6 +236,7 @@ li {
 
 #flex-bicycle-thief {
   flex: 1 1 50%;
+  margin-bottom: 20px;
 }
 
 #bicycle-thief {
@@ -244,6 +246,7 @@ li {
 
 #flex-nosferatu {
   flex: 1 1 50%;
+  margin-top: 0;
 }
 
 #nosferatu {
@@ -253,6 +256,7 @@ li {
 
 #flex-metropolis {
   flex: 1 1 50%;
+  margin-top: 0;
 }
 
 #metropolis {
@@ -480,94 +484,90 @@ h2 {
   margin-right: 22px;
   flex: 0 1 28%;
 }
-/*
-.up-next {
-  padding-top: 20px;
-}
 
-h1 {
-  margin-bottom: 20px;
+.flex-container-up-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 #flex-rashomon {
-  padding-top: 15px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  padding-bottom: 17px;
+  flex: 0 1 44.5%;
+  padding-top: 16px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #rashomon {
-  width: 296px;
+  width: 215px;
 }
 
 #flex-rashomon a {
-  font-size: 22px;
-}
-
-#flex-rashomon p {
-  line-height: 0.5rem;
-  padding-bottom: 10px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 19px;
 }
 
 li {
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .flex-container-other-posters {
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  padding-bottom: 15px;
+  flex: 0 1 44.5%;
+  margin-top: 0;
+  padding-top: 16px;
+  padding-left: 1.7%;
+  padding-right: 1.7%;
+  padding-bottom: 17px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flex-container-other-posters a {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #flex-train-robbery {
-  flex: 0 1 23%;
+  flex: 0 1 38%;
+}
+
+#train-robbery {
+  width: 215px;
+  height: auto;
 }
 
 #flex-bicycle-thief {
-  flex: 0 1 23%;
+  flex: 0 1 38%;
+}
+
+#bicycle-thief {
+  width: 215px;
+  height: auto;
 }
 
 #flex-nosferatu {
-  flex: 0 1 23%;
+  flex: 0 1 38%;
+}
+
+#nosferatu {
+  width: 215px;
+  height: auto;
 }
 
 #flex-metropolis {
-  flex: 0 1 23%;
+  flex: 0 1 38%;
 }
 
-.flex-container-footer-nav{
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 70%;
-  margin-right: 0;
-}
-
-.flex-container-footer-nav a {
-  text-align: center;
-  flex: 0 1 21.25%;
-  height: 60px;
+#metropolis {
+  width: 215px;
+  height: auto;
 }
 
 footer p {
-  display: inline-block;
-  font-size: 16px;
-  color: #ffffff;
-  float: right;
-  text-align: right;
-  width: 20%;
-  margin: 0;
-  padding-top: 45px;
-  padding-right: 15px;
-}*/
+  font-size: 19px;
+}
 }
