@@ -374,62 +374,34 @@ footer p {
   li {
     font-size: 15px;
   }
-  /*
+
   .flex-container-other-posters {
-    background-color: #E2E2E2;
-    margin-top: 15px;
-    padding-top: 15px;
-    padding-left: 4%;
-    padding-right: 5%;
-    padding-bottom: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 15px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .flex-container-other-posters a {
-    font-size: 13px;
-  }
-
-  .flex-container-other-posters p {
-    line-height: 0.4rem;
+    font-size: 16px;
   }
 
   #flex-train-robbery {
-    flex: 1 1 50%;
-  }
-
-  #train-robbery {
-    width: 140px;
-    height: auto;
+    flex: 0 1 23%;
   }
 
   #flex-bicycle-thief {
-    flex: 1 1 50%;
-  }
-
-  #bicycle-thief {
-    width: 140px;
-    height: auto;
+    flex: 0 1 23%;
   }
 
   #flex-nosferatu {
-    flex: 1 1 50%;
-  }
-
-  #nosferatu {
-    width: 140px;
-    height: auto;
+    flex: 0 1 23%;
   }
 
   #flex-metropolis {
-    flex: 1 1 50%;
+    flex: 0 1 23%;
   }
-
-  #metropolis {
-    width: 140px;
-    height: auto;
-  }*/
 
   .flex-container-footer-nav{
     display: inline-flex;
