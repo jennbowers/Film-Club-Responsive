@@ -344,32 +344,22 @@ footer p {
   }
 
   h1 {
-    margin-bottom: 16px;
-  }
-
-  /*
-  .flex-container-up-next {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 20px;
   }
 
   #flex-rashomon {
-    background-color: #E2E2E2;
     padding-top: 15px;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 0px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 17px;
   }
 
   #rashomon {
-    width: 140px;
-    height: auto;
-    float: left;
-    margin-right: 15px;
+    width: 296px;
   }
 
   #flex-rashomon a {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   #flex-rashomon p {
@@ -377,36 +367,14 @@ footer p {
     padding-bottom: 10px;
   }
 
-  hr {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 0.25px solid #000;
-    margin-bottom: 20px;
-  }
-
   h3 {
-    font-size: 13px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-
-  .points-list {
-    display: inline-block;
-    width: 120px;
-  }
-
-  ul {
-    margin-top: 0;
-    padding-left: 20px;
+    font-size: 16px;
   }
 
   li {
-    font-size: 13px;
-    line-height: 1.45rem;
-    list-style: circle;
+    font-size: 15px;
   }
-
+  /*
   .flex-container-other-posters {
     background-color: #E2E2E2;
     margin-top: 15px;
