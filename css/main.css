@@ -340,7 +340,6 @@ footer p {
 
   .up-next {
     padding-top: 20px;
-    /*padding-bottom: 32px;*/
   }
 
   h1 {
@@ -431,3 +430,148 @@ footer p {
 }
 
 /*HOME DESKTOP --min 769px*/
+
+/*p {
+  font-size: 16px;
+  line-height: 1.65rem;
+}
+
+.flex-container-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav a {
+  text-align: center;
+  flex: 0 1 17.5%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  padding-top: 45px;
+}
+
+.get-involved {
+  padding-top: 30px;
+  padding-bottom: 10px
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+
+.flex-container-get-involved {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#flex-watch {
+  flex: 0 1 30%;
+}
+
+#flex-take-notes {
+  flex: 0 1 30%;
+}
+
+#flex-meetup {
+  flex: 0 1 30%;
+}
+
+.blue-background {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+.up-next {
+  padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#flex-rashomon {
+  padding-top: 15px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 17px;
+}
+
+#rashomon {
+  width: 296px;
+}
+
+#flex-rashomon a {
+  font-size: 22px;
+}
+
+#flex-rashomon p {
+  line-height: 0.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+li {
+  font-size: 15px;
+}
+
+.flex-container-other-posters {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container-other-posters a {
+  font-size: 16px;
+}
+
+#flex-train-robbery {
+  flex: 0 1 23%;
+}
+
+#flex-bicycle-thief {
+  flex: 0 1 23%;
+}
+
+#flex-nosferatu {
+  flex: 0 1 23%;
+}
+
+#flex-metropolis {
+  flex: 0 1 23%;
+}
+
+.flex-container-footer-nav{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 70%;
+  margin-right: 0;
+}
+
+.flex-container-footer-nav a {
+  text-align: center;
+  flex: 0 1 21.25%;
+  height: 60px;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  float: right;
+  text-align: right;
+  width: 20%;
+  margin: 0;
+  padding-top: 45px;
+  padding-right: 15px;
+}*/
+}
