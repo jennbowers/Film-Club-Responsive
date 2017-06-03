@@ -306,7 +306,7 @@ footer p {
 
   .get-involved {
     padding-top: 30px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
   }
 
   h2 {
@@ -430,61 +430,57 @@ footer p {
 }
 
 /*HOME DESKTOP --min 769px*/
+@media screen and (min-width: 769px) {
 
-/*p {
-  font-size: 16px;
-  line-height: 1.65rem;
+body{
+  font-weight: 400;
 }
 
-.flex-container-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+p {
+  font-size: 18px;
+  line-height: 1.6rem;
 }
 
 nav a {
-  text-align: center;
-  flex: 0 1 17.5%;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  padding-top: 45px;
+  flex: 0 1 10.75%;
+  font-size: 18px;
 }
 
 .get-involved {
-  padding-top: 30px;
-  padding-bottom: 10px
+  padding-top: 25px;
+  padding-bottom: 17px;
 }
 
 h2 {
-  font-size: 35px;
-  padding-bottom: 5px;
-}
-
-.flex-container-get-involved {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#flex-watch {
-  flex: 0 1 30%;
-}
-
-#flex-take-notes {
-  flex: 0 1 30%;
-}
-
-#flex-meetup {
-  flex: 0 1 30%;
+  font-size: 42px;
+  padding-bottom: 3px;
 }
 
 .blue-background {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 90%;
+  font-size: 31px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 100%;
+  margin-bottom: 0;
 }
 
+.body-copy {
+  margin-top: 15px;
+}
+
+#flex-watch {
+  flex: 0 1 28%;
+}
+
+#flex-take-notes {
+  flex: 0 1 28%;
+}
+
+#flex-meetup {
+  margin-right: 22px;
+  flex: 0 1 28%;
+}
+/*
 .up-next {
   padding-top: 20px;
 }
