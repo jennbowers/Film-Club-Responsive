@@ -1,20 +1,20 @@
 /*resources
 
-text: #0B1942
-inline link: #00B7D3
+--text: #0B1942
+--inline link: #00B7D3
 h2 background: #0B1942
 h2 color: #FFFFFF
-logo background: #F5005B
-navigation background: #7DDFE8
-navigation link color: #FFFFFF
-"Home" nav link background: #00A5BF
-"Calendar" nav link background: #00B7D3
-"Join" nav link background: #00D5E7
+--logo background: #F5005B
+--navigation background: #7DDFE8
+--navigation link color: #FFFFFF
+--"Home" nav link background: #00A5BF
+--"Calendar" nav link background: #00B7D3
+--"Join" nav link background: #00D5E7
 "Up Next" background: #0B1942
 "Up Next" card background #E2E2E2
 calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
-button background: #F5005B
+--button background: #F5005B
 copyright text: #FFFFFF
 
 
@@ -149,8 +149,36 @@ h2 {
   height: 27px;
 }
 
+#flex-genres {
+  margin-bottom: 27px;
+}
+
 #flex-genres p{
   margin-top: 34px;
+  margin-bottom: 14px;
+}
+
+.checkbox {
+  margin-bottom: 18px;
+}
+
+#flex-add-input {
+  margin-bottom: 35px;
+}
+
+#add-input {
+  min-height: 48px;
+  border-radius: 0;
+}
+
+.btn {
+  color: #ffffff;
+  border-radius: 0px;
+  border: none;
+  background-color: #F5005B;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 31px;
 }
 
 footer {
