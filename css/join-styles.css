@@ -355,5 +355,164 @@ footer p {
     padding-top: 45px;
     padding-right: 15px;
   }
+}
 
 /*JOIN DESKTOP --min 769px*/
+
+@media screen and (min-width: 545px) {
+
+}
+  /*p {
+    font-size: 16px;
+    line-height: 1.65rem;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  .flex-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    text-align: center;
+    flex: 0 1 17.5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+
+  .flex-container-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #flex-picture {
+    flex: 1 1 45%;
+  }
+
+  #profile-placeholder img {
+    border-radius: 50%;
+    width: 89.5%;
+  }
+
+  #flex-personal-info {
+    flex: 1 1 45%;
+  }
+
+  #email {
+    margin-bottom: 64px;
+  }
+
+  #flex-genres {
+    flex-grow: 2;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 9px;
+    height: 290px;
+  }
+
+  #action {
+    order: 1;
+  }
+
+  #adventure {
+    order: 7;
+    padding-top: 47px;
+  }
+
+  #comedy {
+    order: 2;
+  }
+
+  #drama {
+    order: 8;
+  }
+
+  #fantasy {
+    order: 3;
+  }
+
+  #historical {
+    order: 9;
+  }
+
+  #horror {
+    order: 4;
+  }
+
+  #mystery {
+    order: 10;
+  }
+
+  #romance {
+    order: 5;
+  }
+
+  #science-fiction {
+    order: 11;
+  }
+
+  #western {
+    order: 6;
+  }
+
+  #flex-add-input {
+    flex-grow: 2;
+    flex-basis: 100%;
+  }
+
+  #add-input {
+    min-height: 58px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+
+  .flex-container-footer-nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .flex-container-footer-nav a {
+    text-align: center;
+    flex: 0 1 21.25%;
+    height: 115px;
+  }
+
+  footer p {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    width: 25%;
+    margin: 0;
+    padding-top: 45px;
+    padding-right: 15px;
+  }*/
