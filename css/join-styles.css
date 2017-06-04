@@ -204,4 +204,51 @@ footer p {
 
 /*JOIN TABLET --min 545px*/
 
+@media screen and (min-width: 545px) {
+  p {
+    font-size: 16px;
+    line-height: 1.65rem;
+  }
+
+  .flex-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    text-align: center;
+    flex: 0 1 17.5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 45px;
+  }
+
+  .flex-container-footer-nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .flex-container-footer-nav a {
+    text-align: center;
+    flex: 0 1 21.25%;
+    height: 115px;
+  }
+
+  footer p {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    width: 25%;
+    margin: 0;
+    padding-top: 45px;
+    padding-right: 15px;
+  }
+
 /*JOIN DESKTOP --min 769px*/
