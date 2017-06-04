@@ -54,6 +54,7 @@ b {
 label {
   font-weight: 400;
   font-size: 13px;
+  margin-bottom: 0;
 }
 
 input {
@@ -123,9 +124,55 @@ section {
 h2 {
   font-weight: 400;
   font-size: 25px;
-  margin-top: 10px;
+  margin-top: 9px;
   margin-bottom: 26px;
 }
+
+#profile-picture {
+  border: none;
+  box-shadow: none;
+  padding-top: 0;
+}
+
+#profile-placeholder {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+
+#profile-placeholder img {
+  border-radius: 50%;
+  width: 81%;
+}
+
+#name #email #password #confirm-password {
+  height: 27px;
+}
+
+#flex-genres p{
+  margin-top: 34px;
+}
+
+footer {
+  background-color: #7DDFE8;
+}
+
+.flex-container-footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 /*JOIN TABLET --min 545px*/
 
