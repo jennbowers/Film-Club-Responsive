@@ -112,11 +112,6 @@ nav a {
   background-color: #00D5E7;
 }
 
-.get-involved {
-  margin: 0;
-  padding: 34px 22px 39px 22px;
-}
-
 section {
   padding: 15px;
 }
@@ -132,6 +127,7 @@ h2 {
   border: none;
   box-shadow: none;
   padding-top: 0;
+  padding-left: 0;
 }
 
 #profile-placeholder {
@@ -151,10 +147,10 @@ h2 {
 
 #flex-genres {
   margin-bottom: 27px;
+  padding-top: 34px;
 }
 
 #flex-genres p{
-  margin-top: 34px;
   margin-bottom: 14px;
 }
 
@@ -210,6 +206,14 @@ footer p {
     line-height: 1.65rem;
   }
 
+  label {
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
   .flex-container-nav{
     display: flex;
     flex-direction: row;
@@ -223,6 +227,107 @@ footer p {
     text-decoration: none;
     font-size: 16px;
     padding-top: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+
+  .flex-container-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #flex-picture {
+    flex: 1 1 45%;
+  }
+
+  #profile-placeholder img {
+    border-radius: 50%;
+    width: 89.5%;
+  }
+
+  #flex-personal-info {
+    flex: 1 1 45%;
+  }
+
+  #email {
+    margin-bottom: 64px;
+  }
+
+  #flex-genres {
+    flex-grow: 2;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 9px;
+    height: 290px;
+  }
+
+  #action {
+    order: 1;
+  }
+
+  #adventure {
+    order: 7;
+    padding-top: 47px;
+  }
+
+  #comedy {
+    order: 2;
+  }
+
+  #drama {
+    order: 8;
+  }
+
+  #fantasy {
+    order: 3;
+  }
+
+  #historical {
+    order: 9;
+  }
+
+  #horror {
+    order: 4;
+  }
+
+  #mystery {
+    order: 10;
+  }
+
+  #romance {
+    order: 5;
+  }
+
+  #science-fiction {
+    order: 11;
+  }
+
+  #western {
+    order: 6;
+  }
+
+  #flex-add-input {
+    flex-grow: 2;
+    flex-basis: 100%;
+  }
+
+  #add-input {
+    min-height: 58px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
   }
 
   .flex-container-footer-nav{
