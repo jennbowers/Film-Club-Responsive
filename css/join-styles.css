@@ -359,65 +359,84 @@ footer p {
 
 /*JOIN DESKTOP --min 769px*/
 
-@media screen and (min-width: 545px) {
+@media screen and (min-width: 769px) {
 
-}
-  /*p {
-    font-size: 16px;
-    line-height: 1.65rem;
+  p {
+    font-size: 18px;
+    line-height: 1.6rem;
   }
 
   label {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   input {
-    font-size: 16px;
-  }
-
-  .flex-container-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    font-size: 18px;
   }
 
   nav a {
-    text-align: center;
-    flex: 0 1 17.5%;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    padding-top: 45px;
+    flex: 0 1 10.75%;
+    font-size: 18px;
   }
 
   h2 {
-    font-size: 35px;
-    margin-top: 9px;
-    margin-bottom: 26px;
-  }
-
-  .flex-container-form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    font-size: 42px;
+    margin-bottom:20px;
   }
 
   #flex-picture {
-    flex: 1 1 45%;
+    flex: 0 1 33%;
+  }
+
+  #profile-picture {
+    font-size: 18px;
+  }
+
+  #profile-placeholder {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 3px;
   }
 
   #profile-placeholder img {
     border-radius: 50%;
-    width: 89.5%;
+    width: 92%;
   }
 
   #flex-personal-info {
-    flex: 1 1 45%;
+    flex-grow: 2;
+    flex-basis: 66%
   }
 
-  #email {
-    margin-bottom: 64px;
+  .flex-container-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 140px;
+  }
+
+  #name-group, #email-group, #password-group, #confirm-password-group {
+    flex: 0 1 48.8%;
+    height: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #name-group {
+    order: 1;
+  }
+
+  #email-group {
+    order: 3;
+  }
+
+  #password-group {
+    order: 2;
+  }
+
+  #confirm-password-group {
+    order: 4;
   }
 
   #flex-genres {
@@ -426,8 +445,13 @@ footer p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 9px;
-    height: 290px;
+    margin-bottom: 0px;
+    height: 236px;
+    padding-bottom: 0px;
+  }
+
+  #flex-genres p {
+    margin-bottom: 10px;
   }
 
   #action {
@@ -435,84 +459,61 @@ footer p {
   }
 
   #adventure {
-    order: 7;
-    padding-top: 47px;
+    order: 5;
+    padding-top: 41px;
   }
 
   #comedy {
-    order: 2;
+    order: 9;
+    padding-top: 41px;
   }
 
   #drama {
-    order: 8;
+    order: 2;
   }
 
   #fantasy {
-    order: 3;
-  }
-
-  #historical {
-    order: 9;
-  }
-
-  #horror {
-    order: 4;
-  }
-
-  #mystery {
-    order: 10;
-  }
-
-  #romance {
-    order: 5;
-  }
-
-  #science-fiction {
-    order: 11;
-  }
-
-  #western {
     order: 6;
   }
 
-  #flex-add-input {
-    flex-grow: 2;
-    flex-basis: 100%;
+  #historical {
+    order: 10;
   }
 
-  #add-input {
-    min-height: 58px;
+  #horror {
+    order: 3;
+  }
+
+  #mystery {
+    order: 7;
+  }
+
+  #romance {
+    order: 11;
+  }
+
+  #science-fiction {
+    order: 4;
+  }
+
+  #western {
+    order: 8;
   }
 
   .btn {
-    font-size: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 19px;
+    padding-right: 19px;
 
-  }
-
-  .flex-container-footer-nav{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 70%;
-    margin-right: 0;
   }
 
   .flex-container-footer-nav a {
-    text-align: center;
-    flex: 0 1 21.25%;
-    height: 115px;
+    flex: 0 1 14%;
   }
 
   footer p {
-    display: inline-block;
-    font-size: 16px;
-    color: #ffffff;
-    float: right;
-    text-align: right;
-    width: 25%;
-    margin: 0;
-    padding-top: 45px;
-    padding-right: 15px;
-  }*/
+    font-size: 18px;
+  }
+}
