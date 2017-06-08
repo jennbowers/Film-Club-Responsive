@@ -31,6 +31,270 @@ copyright text: #FFFFFF
 
 /*CALENDAR MOBILE --min 320px*/
 
+body{
+  font-family: 'PT Sans';
+  color: #0B1942;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  color: #00B7D3;
+}
+
+b {
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%
+}
+
+.logo {
+  display: inline-block;
+  background-color: #F5005B;
+  width: 102px;
+  height: 115px;
+  margin: 0;
+}
+
+#logo-image {
+  width: 83px;
+  height: 95px;
+  margin: 7px 12px 14px 8px;
+}
+
+.flex-container-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 75%;
+  background-color: #7DDFE8;
+  margin-bottom: 0;
+}
+
+nav a {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  flex: 1 1 33%;
+  padding-top: 13px;
+  padding-bottom: 11px;
+}
+
+.nav-home {
+  background-color: #00A5BF;
+}
+
+.nav-calendar {
+  background-color: #00B7D3;
+}
+
+.nav-join {
+  background-color: #00D5E7;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 23px;
+  padding-top: 25px;
+  padding-left: 17px;
+}
+
+.blue-background {
+  background-color: #0B1942;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 17px;
+}
+
+.calendar-blue-bg {
+  background-color: #0B1942;
+}
+
+.flex-container-calendar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 32px;
+}
+
+.day {
+  background-color: #ffffff;
+  flex: 1 1 13%;
+  /*padding: 0px;*/
+  border: 1px #0B1942 solid;
+}
+
+.day-number {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #0B1942;
+  color: #ffffff;
+  padding: 1px 8px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 42.5%;
+}
+
+.pink-day {
+  background-color: #F5005B;
+}
+
+.row-5 {
+  flex: 0 1 13.75%;
+}
+
+footer {
+  background-color: #7DDFE8;
+}
+
+.flex-container-footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 /*CALENDAR TABLET --min 545px*/
 
+@media screen and (min-width: 545px) {
+  p {
+    font-size: 16px;
+    line-height: 1.65rem;
+  }
+
+  .flex-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    text-align: center;
+    flex: 0 1 17.5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .blue-background {
+    padding-bottom: 10px;
+  }
+
+  .day-number {
+    font-size: 13px;
+    padding: 2.5px 8px;
+    margin-bottom: 66%;
+  }
+
+  .row-5 {
+    flex: 0 1 14%;
+  }
+
+  .flex-container-footer-nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .flex-container-footer-nav a {
+    text-align: center;
+    flex: 0 1 21.25%;
+    height: 59px;
+  }
+
+  footer p {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    width: 25%;
+    margin: 0;
+    padding-top: 45px;
+    padding-right: 15px;
+  }
+
+}
+
 /*CALENDAR DESKTOP --min 769px*/
+
+@media screen and (min-width: 769px) {
+
+  body{
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+
+  nav a {
+    flex: 0 1 10.75%;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 42px;
+    padding-top: 18px;
+  }
+
+  .blue-background {
+    font-size: 32px;
+    padding-bottom: 0px;
+  }
+
+  .day-number {
+    font-size: 15px;
+    padding: 2.5px 10px 4px 8px;
+    margin-bottom: 78.5%;
+  }
+
+  .row-5 {
+    flex: 0 1 14.08%;
+  }
+
+  .flex-container-footer-nav a {
+    flex: 0 1 14%;
+  }
+
+  footer p {
+    font-size: 19px;
+  }
+}

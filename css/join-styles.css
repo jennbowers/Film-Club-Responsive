@@ -1,20 +1,20 @@
 /*resources
 
-text: #0B1942
-inline link: #00B7D3
+--text: #0B1942
+--inline link: #00B7D3
 h2 background: #0B1942
 h2 color: #FFFFFF
-logo background: #F5005B
-navigation background: #7DDFE8
-navigation link color: #FFFFFF
-"Home" nav link background: #00A5BF
-"Calendar" nav link background: #00B7D3
-"Join" nav link background: #00D5E7
+--logo background: #F5005B
+--navigation background: #7DDFE8
+--navigation link color: #FFFFFF
+--"Home" nav link background: #00A5BF
+--"Calendar" nav link background: #00B7D3
+--"Join" nav link background: #00D5E7
 "Up Next" background: #0B1942
 "Up Next" card background #E2E2E2
 calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
-button background: #F5005B
+--button background: #F5005B
 copyright text: #FFFFFF
 
 
@@ -31,6 +31,500 @@ copyright text: #FFFFFF
 
 /*JOIN MOBILE --min 320px*/
 
+body{
+  font-family: 'PT Sans';
+  color: #0B1942;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+  cursor: pointer;
+  color: #00B7D3;
+}
+
+b {
+  font-weight: bold;
+}
+
+label {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+input {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%
+}
+
+.logo {
+  display: inline-block;
+  background-color: #F5005B;
+  width: 102px;
+  height: 115px;
+  margin: 0;
+}
+
+#logo-image {
+  width: 83px;
+  height: 95px;
+  margin: 7px 12px 14px 8px;
+}
+
+.flex-container-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 75%;
+  background-color: #7DDFE8;
+  margin-bottom: 0;
+}
+
+nav a {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  flex: 1 1 33%;
+  padding-top: 11px;
+  padding-bottom: 9px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-home {
+  background-color: #00A5BF;
+}
+
+.nav-calendar {
+  background-color: #00B7D3;
+}
+
+.nav-join {
+  background-color: #00D5E7;
+}
+
+section {
+  padding: 15px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 9px;
+  margin-bottom: 26px;
+}
+
+#profile-picture {
+  border: none;
+  box-shadow: none;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+#profile-placeholder {
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+
+#profile-placeholder img {
+  border-radius: 50%;
+  width: 81%;
+}
+
+#name #email #password #confirm-password {
+  height: 27px;
+}
+
+#flex-genres {
+  margin-bottom: 27px;
+  padding-top: 34px;
+}
+
+#flex-genres p{
+  margin-bottom: 14px;
+}
+
+.checkbox {
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+#flex-add-input {
+  margin-bottom: 35px;
+}
+
+#add-input {
+  min-height: 48px;
+  border-radius: 0;
+}
+
+.btn {
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 0px;
+  border: none;
+  background-color: #F5005B;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 31px;
+}
+
+footer {
+  background-color: #7DDFE8;
+}
+
+.flex-container-footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
 /*JOIN TABLET --min 545px*/
 
+@media screen and (min-width: 545px) {
+  p {
+    font-size: 16px;
+    line-height: 1.65rem;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  .flex-container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    text-align: center;
+    flex: 0 1 17.5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+  }
+
+  .flex-container-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #flex-picture {
+    flex: 1 1 45%;
+  }
+
+  #profile-placeholder img {
+    border-radius: 50%;
+    width: 89.5%;
+  }
+
+  #flex-personal-info {
+    flex: 1 1 45%;
+  }
+
+  #email {
+    margin-bottom: 64px;
+  }
+
+  #flex-genres {
+    flex-grow: 2;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 9px;
+    height: 290px;
+  }
+
+  #action {
+    order: 1;
+  }
+
+  #adventure {
+    order: 7;
+    padding-top: 47px;
+  }
+
+  #comedy {
+    order: 2;
+  }
+
+  #drama {
+    order: 8;
+  }
+
+  #fantasy {
+    order: 3;
+  }
+
+  #historical {
+    order: 9;
+  }
+
+  #horror {
+    order: 4;
+  }
+
+  #mystery {
+    order: 10;
+  }
+
+  #romance {
+    order: 5;
+  }
+
+  #science-fiction {
+    order: 11;
+  }
+
+  #western {
+    order: 6;
+  }
+
+  #flex-add-input {
+    flex-grow: 2;
+    flex-basis: 100%;
+  }
+
+  #add-input {
+    min-height: 58px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+
+  .flex-container-footer-nav{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .flex-container-footer-nav a {
+    text-align: center;
+    flex: 0 1 21.25%;
+    height: 115px;
+  }
+
+  footer p {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    width: 25%;
+    margin: 0;
+    padding-top: 45px;
+    padding-right: 15px;
+  }
+}
+
 /*JOIN DESKTOP --min 769px*/
+
+@media screen and (min-width: 769px) {
+
+  p {
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  nav a {
+    flex: 0 1 10.75%;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 42px;
+    margin-bottom:20px;
+  }
+
+  #flex-picture {
+    flex: 0 1 33%;
+  }
+
+  #profile-picture {
+    font-size: 18px;
+  }
+
+  #profile-placeholder {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 3px;
+  }
+
+  #profile-placeholder img {
+    border-radius: 50%;
+    width: 92%;
+  }
+
+  #flex-personal-info {
+    flex-grow: 2;
+    flex-basis: 66%
+  }
+
+  .flex-container-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 140px;
+  }
+
+  #name-group, #email-group, #password-group, #confirm-password-group {
+    flex: 0 1 48.8%;
+    height: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #name-group {
+    order: 1;
+  }
+
+  #email-group {
+    order: 3;
+  }
+
+  #password-group {
+    order: 2;
+  }
+
+  #confirm-password-group {
+    order: 4;
+  }
+
+  #flex-genres {
+    flex-grow: 2;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    height: 236px;
+    padding-bottom: 0px;
+  }
+
+  #flex-genres p {
+    margin-bottom: 10px;
+  }
+
+  #action {
+    order: 1;
+  }
+
+  #adventure {
+    order: 5;
+    padding-top: 41px;
+  }
+
+  #comedy {
+    order: 9;
+    padding-top: 41px;
+  }
+
+  #drama {
+    order: 2;
+  }
+
+  #fantasy {
+    order: 6;
+  }
+
+  #historical {
+    order: 10;
+  }
+
+  #horror {
+    order: 3;
+  }
+
+  #mystery {
+    order: 7;
+  }
+
+  #romance {
+    order: 11;
+  }
+
+  #science-fiction {
+    order: 4;
+  }
+
+  #western {
+    order: 8;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 19px;
+    padding-right: 19px;
+
+  }
+
+  .flex-container-footer-nav a {
+    flex: 0 1 14%;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+}

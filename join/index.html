@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Film Club - Join</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/join-styles.css">
@@ -10,16 +11,18 @@
     </style>
   </head>
   <body>
-    <div class="logo">
-      <img src="../images/filmclub.png" alt="logo" id="logo-image">
-    </div>
-    <nav class="flex-container flex-container-nav">
-      <a href="../index.html">Home</a>
-      <a href="../calendar/index.html">Calendar</a>
-      <a href="index.html">Join</a>
-    </nav>
+    <header>
+      <div class="logo">
+        <img src="../images/filmclub.png" alt="logo" id="logo-image">
+      </div>
+      <nav class="flex-container flex-container-nav">
+        <a class="nav-home" href="../index.html">Home</a>
+        <a class="nav-calendar" href="../calendar/index.html">Calendar</a>
+        <a class="nav-join" href="index.html">Join</a>
+      </nav>
+    </header>
     <section>
-      <h2 id="join-club-h2"></h2>
+      <h2 id="join-club-h2">Join Film Club</h2>
       <!-- begin flexbox container on form -->
       <form class="flex-container flex-container-form" action="index.html" method="get">
         <!-- flex item choose file and picture placeholder img -->
@@ -33,20 +36,20 @@
           </div>
         </div>
         <!-- flex item personal information -->
-        <div id="flex-personal-info">
-          <div class="form-group">
+        <div class="flex-container-info" id="flex-personal-info">
+          <div class="form-group" id="name-group">
             <label for="name">name</label>
             <input type="text" id="name" class="form-control" name="name" value="">
           </div>
-          <div class="form-group">
+          <div class="form-group" id="email-group">
             <label for="email">email address</label>
             <input type="email" id="email" class="form-control" name="email" value="">
           </div>
-          <div class="form-group">
+          <div class="form-group" id="password-group">
             <label for="password">password</label>
             <input type="password" id="password" class="form-control" name="password" value="">
           </div>
-          <div class="form-group">
+          <div class="form-group" id="confirm-password-group">
             <label for="confirm-password">confirm password</label>
             <input type="password" id="confirm-password" class="form-control" name="confirm-password" value="">
           </div>
@@ -54,63 +57,67 @@
         <!-- flex item genres -->
         <div id="flex-genres">
           <p>Which genres are you interested in?</p>
-          <div class="checkbox">
+          <div class="checkbox" id="action">
             <label>
               <input type="checkbox" value="">
               action
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="adventure">
             <label>
               <input type="checkbox" value="">
               adventure
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="comedy">
             <label>
               <input type="checkbox" value="">
               comedy
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="drama">
             <label>
               <input type="checkbox" value="">
               drama
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="fantasy">
             <label>
               <input type="checkbox" value="">
               fantasy
             </label>
-          </div><div class="checkbox">
+          </div>
+          <div class="checkbox" id="historical">
             <label>
               <input type="checkbox" value="">
               historical
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="horror">
             <label>
               <input type="checkbox" value="">
               horror
             </label>
-          </div><div class="checkbox">
+          </div>
+          <div class="checkbox" id="mystery">
             <label>
               <input type="checkbox" value="">
               mystery
             </label>
           </div>
-          <div class="checkbox">
+          <div class="checkbox" id="romance">
             <label>
               <input type="checkbox" value="">
               romance
             </label>
-          </div><div class="checkbox">
+          </div>
+          <div class="checkbox" id="science-fiction">
             <label>
               <input type="checkbox" value="">
               science fiction
             </label>
-          </div><div class="checkbox">
+          </div>
+          <div class="checkbox" id="western">
             <label>
               <input type="checkbox" value="">
               western
@@ -127,10 +134,10 @@
       </form>
     </section>
     <footer>
-      <nav class="flex-container flex-container-nav">
-        <a href="../index.html">Home</a>
-        <a href="../calendar/index.html">Calendar</a>
-        <a href="index.html">Join</a>
+      <nav class="flex-container flex-container-footer-nav">
+        <a class="nav-home" href="../index.html">Home</a>
+        <a class="nav-calendar" href="../calendar/index.html">Calendar</a>
+        <a class="nav-join" href="index.html">Join</a>
       </nav>
       <p id="copyright">© 2017, Film Club</p>
     </footer>
