@@ -75,6 +75,7 @@ header {
 }
 
 nav a {
+  cursor: pointer;
   color: #ffffff;
   text-decoration: none;
   font-size: 12px;
@@ -159,13 +160,15 @@ h1 {
 }
 
 #rashomon {
-  width: 140px;
+  cursor: pointer;
+  width: 41%;
   height: auto;
   float: left;
   margin-right: 15px;
 }
 
 #flex-rashomon a {
+  cursor: pointer;
   font-size: 20px;
 }
 
@@ -213,7 +216,7 @@ li {
   padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .flex-container-other-posters a {
@@ -225,42 +228,45 @@ li {
 }
 
 #flex-train-robbery {
-  flex: 1 1 50%;
+  flex: 0 1 41%;
   margin-bottom: 20px;
 }
 
 #train-robbery {
-  width: 140px;
+  width: 100%;
   height: auto;
 }
 
 #flex-bicycle-thief {
-  flex: 1 1 50%;
+  flex: 0 1 41%;
   margin-bottom: 20px;
 }
 
 #bicycle-thief {
-  width: 140px;
+  width: 100%;
   height: auto;
 }
 
 #flex-nosferatu {
-  flex: 1 1 50%;
+  flex: 0 1 41%;
   margin-top: 0;
 }
 
 #nosferatu {
-  width: 140px;
+  cursor: pointer;
+  width: 100%;
   height: auto;
 }
 
 #flex-metropolis {
-  flex: 1 1 50%;
+  cursor: pointer;
+  flex: 0 1 41%;
   margin-top: 0;
 }
 
 #metropolis {
-  width: 140px;
+  cursor: pointer;
+  width: 100%;
   height: auto;
 }
 
@@ -358,7 +364,7 @@ footer p {
   }
 
   #rashomon {
-    width: 296px;
+    width: 48.7%;
   }
 
   #flex-rashomon a {
@@ -500,7 +506,7 @@ h2 {
 }
 
 #rashomon {
-  width: 215px;
+  width: 48%;
 }
 
 #flex-rashomon a {
@@ -532,38 +538,38 @@ li {
 }
 
 #flex-train-robbery {
-  flex: 0 1 38%;
+  flex: 0 1 48%;
 }
 
 #train-robbery {
-  width: 215px;
+  width: 100%;
   height: auto;
 }
 
 #flex-bicycle-thief {
-  flex: 0 1 38%;
+  flex: 0 1 48%;
 }
 
 #bicycle-thief {
-  width: 215px;
+  width: 100%;
   height: auto;
 }
 
 #flex-nosferatu {
-  flex: 0 1 38%;
+  flex: 0 1 48%;
 }
 
 #nosferatu {
-  width: 215px;
+  width: 100%;
   height: auto;
 }
 
 #flex-metropolis {
-  flex: 0 1 38%;
+  flex: 0 1 48%;
 }
 
 #metropolis {
-  width: 215px;
+  width: 100%;
   height: auto;
 }
 

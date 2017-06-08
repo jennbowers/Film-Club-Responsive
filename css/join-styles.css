@@ -44,6 +44,7 @@ p {
 }
 
 a {
+  cursor: pointer;
   color: #00B7D3;
 }
 
@@ -52,12 +53,14 @@ b {
 }
 
 label {
+  cursor: pointer;
   font-weight: 400;
   font-size: 13px;
   margin-bottom: 0;
 }
 
 input {
+  cursor: pointer;
   font-size: 13px;
 }
 
@@ -91,6 +94,7 @@ header {
 }
 
 nav a {
+  cursor: pointer;
   color: #ffffff;
   text-decoration: none;
   font-size: 12px;
@@ -98,6 +102,11 @@ nav a {
   flex: 1 1 33%;
   padding-top: 11px;
   padding-bottom: 9px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .nav-home {
@@ -155,6 +164,7 @@ h2 {
 }
 
 .checkbox {
+  cursor: pointer;
   margin-bottom: 18px;
 }
 
@@ -168,6 +178,7 @@ h2 {
 }
 
 .btn {
+  cursor: pointer;
   color: #ffffff;
   border-radius: 0px;
   border: none;
